@@ -140,13 +140,14 @@ class Scene1 extends Phaser.Scene
 
 
         //CRIA BANCO DE PALAVRAS DEFAULT
-        const bancoPalavras =  ['RICKFARO', 'SUPEROTAKU', 'VERDADEIRO', 'GAMER', 'ADULTO'];
+        const bancoPalavras = ["ABACATE", "BANANA", "CASA", "DINHEIRO", "ELEFANTE", "FACA", "GATO", "HOMEM", "IGREJA", "JANELA", "KOALA", "LIMAO", "MACA", "NAVIO", "AMOR", "PAPAGAIO", "QUEIJO", "RATO", "SOL", "TIGRE", "UVA", "VACA", "XICARA", "YOGURTE", "ZEBRA", "AGUA", "ARVORE", "ONIBUS", "EGUA", "EPOCA", "EXITO", "ULTIMO", "IMPAR", "INDIO", "ICONE", "UNICO", "UMIDO", "IMPETO", "ULTIMA", "INDICE", "ICONE", "IMPAR", "INDIO", "ULTIMO", "UNICO"];
 
         
         //CRIA ANIMACOES
         this.anims.create(
         {
             key: "bg_anim1",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("background"),
             frameRate: 10,
             repeat: -1,  
@@ -155,6 +156,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "bg_anim2",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("background-inicio"),
             frameRate: 10,
             repeat: -1,  
@@ -163,6 +165,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "bg_anim3",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("background-venceu"),
             frameRate: 10,
             repeat: -1,  
@@ -171,6 +174,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "florinicio_anim",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("flor-inicio"),
             frameRate: 5,
             repeat: -1,  
@@ -180,6 +184,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "david_pisca",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("david"),
             frameRate: 10,
             repeat: -1,
@@ -189,6 +194,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "petala_cai",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("petala"),
             frameRate: 10,
             repeat: -1,
@@ -197,6 +203,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "david_bate",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("davidpatas"),
             frameRate: 20,
             repeat: 0
@@ -205,6 +212,7 @@ class Scene1 extends Phaser.Scene
         this.anims.create(
         {
             key: "flor_bate",
+            // @ts-ignore
             frames: this.anims.generateFrameNumbers("davidfloranim"),
             frameRate: 20,
             repeat: 0,  
